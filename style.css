@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+body {
+    
+    background-image: url("images/thumb.jpg");
+    background-size: cover;
+}
+.center {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid;
+    border-radius: 10px
+    
+    
+    ;
+    background-color: black;
+    
+
+    
+}
+.center h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.center input {
+    width: 80%;
+    padding: 20px;
+    margin: 25px;
+    border: 0ch;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.center p {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 2.5%;
+    
+}
+.center button {
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 4%;
+    width: 30%;
+}
